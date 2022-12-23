@@ -1,2 +1,2 @@
 ###### codewars-tasks
-# Solving tasks from [codewars](codewars.com).
+# Solving tasks from [codewars](https://codewars.com).
