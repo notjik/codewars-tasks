@@ -1,2 +1,2 @@
-# codewars-tasks
-Tasks from codewars.com
+###### codewars-tasks
+# Solving tasks from [codewars](codewars.com).
