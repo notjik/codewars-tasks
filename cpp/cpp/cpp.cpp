@@ -4,7 +4,10 @@
 //#include "collatz-conjecture.h"
 //#include "multiples-of-3-or-5.h"
 //#include "who-likes-it.h"
-#include "isograms.h"
+//#include "isograms.h"
+//#include "youre-a-square.h"
+//#include "complementary_dna.h"
+#include "replace-with-alphabet-position.h"
 
 using namespace std;
 
@@ -37,10 +40,36 @@ using namespace std;
 //    return 0;
 //}
 
-int main() // Isograms
+//int main() // Isograms
+//{
+//    string str;
+//    cin >> str;
+//    cout << is_isogram(str) << endl;
+//    return 0;
+//}
+
+//int main() // You're a square!
+//{
+//    int n;
+//    cin >> n;
+//    cout << is_square(n) << endl;
+//    return 0;
+//}
+
+//int main() // Complementary DNA
+//{
+//    string dna;
+//    cin >> dna;
+//    cout << DNAStrand(dna) << endl;
+//    return 0;
+//}
+
+#include <cctype>
+
+int main() // Replace With Alphabet Position
 {
-    string str;
-    cin >> str;
-    cout << is_isogram(str) << endl;
+    string res;
+    int tmp;
+    cout << alphabet_position("");
     return 0;
 }
