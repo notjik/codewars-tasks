@@ -31,7 +31,7 @@ hotpo(23) returns 15
 Collatz conjecture wikipedia page : https://en.wikipedia.org/wiki/Collatz_conjecture
 */
 
-unsigned int hotpo(unsigned int n) {
+unsigned int CollatzConjecture::hotpo(unsigned int n) {
     unsigned int c = 0;
     while (n != 1) {
         if (!(n % 2)) {

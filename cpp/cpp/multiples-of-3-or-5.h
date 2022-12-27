@@ -1,2 +1,5 @@
 #pragma once
-int solution(int number);
+class MultiplesOf3Or5 {
+public:
+	int solution(int number);
+};

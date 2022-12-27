@@ -1,2 +1,5 @@
 #pragma once
-unsigned int hotpo(unsigned int n);
+class CollatzConjecture {
+public:
+	unsigned int hotpo(unsigned int n);
+};

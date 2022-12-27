@@ -1,2 +1,5 @@
 #pragma once
-bool is_square(int n);
+class YouReASquare {
+public:
+	bool is_square(int n);
+};

@@ -1,4 +1,9 @@
 #pragma once
 #include <string>
 
-std::string alphabet_position(const std::string& text);
+class ReplaceWithAlphabetPosition {
+private:
+	char lower(char c);
+public:
+	std::string alphabet_position(const std::string & text);
+};

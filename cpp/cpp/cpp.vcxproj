@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="collatz-conjecture.cpp" />
-    <ClCompile Include="complementary_dna.cpp" />
+    <ClCompile Include="complementary-dna.cpp" />
     <ClCompile Include="cpp.cpp" />
     <ClCompile Include="isograms.cpp" />
     <ClCompile Include="multiples-of-3-or-5.cpp" />
@@ -137,7 +137,7 @@
     <ClCompile Include="youre-a-square.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="complementary_dna.h" />
+    <ClInclude Include="complementary-dna.h" />
     <ClInclude Include="replace-with-alphabet-position.h" />
     <ClInclude Include="youre-a-square.h" />
     <ClInclude Include="collatz-conjecture.h" />

@@ -1,4 +1,9 @@
 #pragma once
 #include <string>
 
-bool is_isogram(std::string str);
+class Isograms {
+private:
+	char lower(char c);
+public:
+	bool is_isogram(std::string str);
+};

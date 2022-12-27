@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include "complementary_dna.h"
+#include "complementary-dna.h"
 
 /*
 Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
@@ -18,7 +18,7 @@ Example: (input --> output)
 "GTAT" --> "CATA"
 */
 
-std::string DNAStrand(const std::string& dna)
+std::string ComplementaryDNA::DNAStrand(const std::string& dna)
 {
     std::string dna_nconst = dna;
     std::replace(dna_nconst.begin(), dna_nconst.end(), 'A', 'X');

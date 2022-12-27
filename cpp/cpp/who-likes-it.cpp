@@ -33,7 +33,7 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 //    return names[0] + ", " + names[1] + " and " + o + " others like this";
 //}
 
-std::string likes(const std::vector<std::string>& names) {
+std::string WhoLikesIt::likes(const std::vector<std::string>& names) {
     switch (names.size()) {
     case 0: return "no one likes this";
     case 1: return names[0] + " likes this";

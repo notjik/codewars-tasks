@@ -14,7 +14,7 @@ Example: (Input-- > Output)
     isIsogram "aba" = false
 */
 
-char to_lower(char c)
+char Isograms::lower(char c)
 {
     if (c >= 'A' && c <= 'Z') {
         return c + 32;
@@ -23,9 +23,11 @@ char to_lower(char c)
     return c;
 }
 
-bool is_isogram(std::string str)
+
+bool Isograms::is_isogram(std::string str)
 {
-    for (char& c : str) c = to_lower(c);
+    for (char& c : str) c = lower(c);
     std::set <char> str_set(str.begin(), str.end());
     return str.size() == str_set.size();
 }
+

@@ -6,7 +6,7 @@
 //#include "who-likes-it.h"
 //#include "isograms.h"
 //#include "youre-a-square.h"
-//#include "complementary_dna.h"
+//#include "complementary-dna.h"
 #include "replace-with-alphabet-position.h"
 
 using namespace std;
@@ -15,7 +15,7 @@ using namespace std;
 //{
 //    unsigned int n;
 //    cin >> n;
-//    unsigned int res = hotpo(n);
+//    unsigned int res = CollatzConjecture().hotpo(n);
 //    cout << res << endl;
 //    return 0;
 //}
@@ -24,7 +24,7 @@ using namespace std;
 //{
 //    int number;
 //    cin >> number;
-//    int res = solution(number);
+//    int res = MultiplesOf3Or5().solution(number);
 //    cout << res << endl;
 //    return 0;
 //}
@@ -35,7 +35,7 @@ using namespace std;
 //    string input;
 //    while (cin >> input)
 //        in.push_back(input);
-//    string res = likes(in);
+//    string res = WhoLikesIt().likes(in);
 //    cout << res << endl;
 //    return 0;
 //}
@@ -44,7 +44,7 @@ using namespace std;
 //{
 //    string str;
 //    cin >> str;
-//    cout << is_isogram(str) << endl;
+//    cout << Isograms().is_isogram(str) << endl;
 //    return 0;
 //}
 
@@ -52,7 +52,7 @@ using namespace std;
 //{
 //    int n;
 //    cin >> n;
-//    cout << is_square(n) << endl;
+//    cout << YouReASquare().is_square(n) << endl;
 //    return 0;
 //}
 
@@ -60,16 +60,14 @@ using namespace std;
 //{
 //    string dna;
 //    cin >> dna;
-//    cout << DNAStrand(dna) << endl;
+//    cout << ComplementaryDNA().DNAStrand(dna) << endl;
 //    return 0;
 //}
 
-#include <cctype>
-
 int main() // Replace With Alphabet Position
 {
-    string res;
-    int tmp;
-    cout << alphabet_position("");
+    string input;
+    getline(cin, input);
+    cout << ReplaceWithAlphabetPosition().alphabet_position(input);
     return 0;
 }

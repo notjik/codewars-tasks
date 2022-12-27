@@ -1,13 +1,8 @@
-#include <iostream>
-#include <cmath>
-#include "youre-a-square.h"
-
-using namespace std;
-
 /*
+A square of squares
 You like building blocks. You especially like building blocks that are squares. And what you even like more, is to arrange them into a square of square building blocks!
 
-However, sometimes, you can't arrange them into a square. Instead, you end up with an ordinary rectangle! Those blasted things! If you just had a way to know, whether you're currently working in vain… Wait! That's it! You just have to check if your number of building blocks is a perfect square.
+However, sometimes, you can't arrange them into a square. Instead, you end up with an ordinary rectangle! Those blasted things! If you just had a way to know, whether you're currently working in vainâ€¦ Wait! That's it! You just have to check if your number of building blocks is a perfect square.
 
 Task
 Given an integral number, determine if it's a square number:
@@ -28,11 +23,12 @@ isSquare   3  // => false
 isSquare   4  // => true
 isSquare  25  // => true
 isSquare  26  // => false
-*/
+ */
 
-bool YouReASquare::is_square(int n)
-{
-    int sqrtint = sqrt(n);
-    float sqrtfloat = sqrtint;
-    return sqrt(n) == sqrtfloat;
+public class YouReASquare {
+    public static class Square {
+        public static boolean isSquare(int n) {
+            return (int) Math.sqrt(n) == Math.sqrt(n);
+        }
+    }
 }

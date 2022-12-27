@@ -5,19 +5,19 @@
 
 using namespace std;
 
-char tolower(char c)
+char ReplaceWithAlphabetPosition::lower(char c)
 {
     if (c >= 'A' && c <= 'Z') {
         return c + 32;
     }
     return c;
-}
+};
 
-string alphabet_position(const string& text)
+string ReplaceWithAlphabetPosition::alphabet_position(const string& text)
 {
     string text_nconst = "";
     for (string::size_type i = 0; i < text.size(); i++) {
-        if (isalpha(tolower(text[i]))) text_nconst.push_back(tolower(text[i]) - 'a' + 1);
+        if (isalpha(lower(text[i]))) text_nconst.push_back(lower(text[i]) - 'a' + 1);
     }
     if (text_nconst.empty()) return "";
     string res = "";
@@ -28,4 +28,4 @@ string alphabet_position(const string& text)
     }
     res += to_string(text_nconst[text_nconst.size() - 1]);
     return res;
-}
+};

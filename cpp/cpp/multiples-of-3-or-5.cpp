@@ -15,7 +15,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 Courtesy of projecteuler.net(Problem 1)
 */
 
-int solution(int number)
+int MultiplesOf3Or5::solution(int number)
 {
     vector <int> res;
     for (int i = 1; i < number; i++) {
