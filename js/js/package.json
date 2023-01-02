@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "js",
+  "main": "app.js",
+  "author": "notjik",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
