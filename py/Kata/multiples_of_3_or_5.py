@@ -9,5 +9,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 
 Courtesy of projecteuler.net (Problem 1)
 """
+
+
 def solution(number):
     return sum([i for i in range(1, number) if not (i % 3) or not (i % 5)])

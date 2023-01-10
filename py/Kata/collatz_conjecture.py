@@ -27,10 +27,12 @@ hotpo(23) returns 15
 
 Collatz conjecture wikipedia page: https://en.wikipedia.org/wiki/Collatz_conjecture
 """
+
+
 def hotpo(n):
     c = 0
     while n != 1:
-        if not(n % 2):
+        if not (n % 2):
             c += 1
             n //= 2
         else:

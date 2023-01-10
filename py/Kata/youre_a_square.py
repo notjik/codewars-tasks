@@ -27,5 +27,7 @@ isSquare   4  // => true
 isSquare  25  // => true
 isSquare  26  // => false
 """
+
+
 def is_square(n):
-    return (n**0.5).is_integer() if n >= 0 else False
+    return (n ** 0.5).is_integer() if n >= 0 else False

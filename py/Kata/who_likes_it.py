@@ -12,6 +12,8 @@ display text as shown in the examples:
 ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
 Note: For 4 or more names, the number in "and 2 others" simply increases.
 """
+
+
 def likes(names):
     if not names:
         return "no one likes this"
@@ -20,4 +22,4 @@ def likes(names):
     if len(names) == 2:
         return '{} and {} like this'.format(names[0], names[1])
     return '{} and {} like this'.format(', '.join(names[:2]),
-                                        names[2] if len(names) == 3 else '{} others'.format(len(names)-2))
+                                        names[2] if len(names) == 3 else '{} others'.format(len(names) - 2))

@@ -15,5 +15,8 @@ Example: (input --> output)
 "ATTGC" --> "TAACG"
 "GTAT" --> "CATA"
 """
+
+
 def DNA_strand(dna):
-    return dna.replace('T', 'x').replace('A', 'T').replace('x', 'A').replace('C', 'x').replace('G', 'C').replace('x', 'G')
+    return dna.replace('T', 'x').replace('A', 'T').replace('x', 'A').replace('C', 'x').replace('G', 'C').replace('x',
+                                                                                                                 'G')
